@@ -1,0 +1,25 @@
+{
+	"name": "csv-admin-server",
+	"version": "0.2.0",
+	"private": true,
+	"main": "server.js",
+	"scripts": {
+		"dev-start": "nodemon server.js",
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"express-favicon": "^2.0.1",
+		"nodemon": "^2.0.7",
+		"path": "^0.12.7"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		]
+	}
+}
